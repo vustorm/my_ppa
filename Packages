@@ -1,0 +1,34 @@
+Package: libnettle7
+Source: nettle
+Version: 3.5.1+really3.5.1-2ubuntu0.2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 396
+Depends: libc6 (>= 2.14)
+Filename: ./libnettle7_3.5.1+really3.5.1-2ubuntu0.2_amd64.deb
+Size: 114900
+MD5sum: ac03719bf52538280d81123650602167
+SHA1: 4829996d6bec5ae9c966528f53bf297ee8af5c56
+SHA256: 3496aed83407fde71e0dc5988b28e8fd7f07a2f27fcf3e0f214c7cd86667eecd
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+Description: low level cryptographic library (symmetric and one-way cryptos)
+ Nettle is a cryptographic library that is designed to fit easily in more or
+ less any context: In crypto toolkits for object-oriented languages (C++,
+ Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
+ space.
+ .
+ It tries to solve a problem of providing a common set of cryptographic
+ algorithms for higher-level applications by implementing a
+ context-independent set of cryptographic algorithms. In that light, Nettle
+ doesn't do any memory allocation or I/O, it simply provides the
+ cryptographic algorithms for the application to use in any environment and
+ in any way it needs.
+ .
+ This package contains the symmetric and one-way cryptographic
+ algorithms. To avoid having this package depend on libgmp, the
+ asymmetric cryptos reside in a separate library, libhogweed.
+Original-Maintainer: Magnus Holmgren <holmgren@debian.org>
+
