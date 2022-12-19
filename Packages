@@ -9,3 +9,14 @@ SHA1: c9289487947ba90e71e07cc9249a4d4dd4df6d60
 SHA256: 209d295dddabb45d81b200a0c676b119e76009b428a5c97ecc857121b0563079
 Description: A program that greets you.
 
+Package: lancs-agent
+Version: 1.0
+Architecture: amd64
+Maintainer: Nguyen Vu <vu.nv@lancsnet.com>
+Filename: ./lancs-agent-ubuntu.deb
+Size: 6936314
+MD5sum: 965e68c56e6d002421b0c95052d4545c
+SHA1: 13c29d00f5662c80403f3553d88b9769d1b298ba
+SHA256: c9c3e2ad20ee718eab3826e3496f3bc71726ea763d84ed0e2c98531a27e0fd4e
+Description: lancs-agent use with linksafe system
+
