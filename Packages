@@ -14,9 +14,9 @@ Version: 1.0
 Architecture: amd64
 Maintainer: Nguyen Vu <vu.nv@lancsnet.com>
 Filename: ./lancs-agent.deb
-Size: 7907380
-MD5sum: eb6119ecc8270fe010f07d85a236c986
-SHA1: 7889021d4a6d2c0c8f19305a255e057b137af0b2
-SHA256: fbf51048a7b68112ba395b90818926bc8a4716ed7534c40037379b835f740079
+Size: 12396694
+MD5sum: 0b3d85196df861dd04f548c2feb12de0
+SHA1: e7fc2a9c4a39722da238ad1b5e218319909bbb71
+SHA256: 753ac52eeee5209123094463a0978248bafda0d78dbb844a20ba6a89c0db989f
 Description: lancs-agent use with linksafe system
 
