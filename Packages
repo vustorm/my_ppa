@@ -1,11 +1,18 @@
 Package: lancs-agent
-Version: 1.0
+Source: lancs-agent
+Version: 1.0.0-1
 Architecture: amd64
-Maintainer: Nguyen Vu <vu.nv@lancsnet.com>
+Maintainer: Vu Nguyen <vu.nv@lancsnet.com>
+Depends: libc6 (>= 2.7), lsb-release, debconf, adduser
+Conflicts: Lancs-agent
 Filename: ./lancs-agent.deb
-Size: 12130404
-MD5sum: ffc858d3b43acec654101a26dc4c2ef7
-SHA1: 8050a79143a5232622427da660a965149a0ae591
-SHA256: 68d6d78c5fcbfda4d86e727be6187dc035d1d7ee02a46841f7a32b0f8cad5bdb
-Description: lancs-agent use with linksafe system
+Size: 6005048
+MD5sum: 2fb959acb8e37f52896b03bb407fd4c8
+SHA1: a8e5165b2a19c83a5a8198bc68edf2b1474568ec
+SHA256: b8b7a595c90dce26fc28c02eeea680f59fc9c6ccec3b5b38b4b81a2b99e83a45
+Section: admin
+Priority: extra
+Homepage: https://www.lancsnet.com
+Description: lancs-agent
+Build-Depends: debhelper (>= 7.0.50~), make, gcc, linux-libc-dev, gawk, libaudit-dev, selinux-basics
 
