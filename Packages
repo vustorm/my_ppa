@@ -6,10 +6,10 @@ Maintainer: Vu Nguyen <vu.nv@lancsnet.com>
 Depends: libc6 (>= 2.7), lsb-release, debconf, adduser
 Conflicts: Lancs-agent
 Filename: ./lancs-agent.deb
-Size: 6005048
-MD5sum: 2fb959acb8e37f52896b03bb407fd4c8
-SHA1: a8e5165b2a19c83a5a8198bc68edf2b1474568ec
-SHA256: b8b7a595c90dce26fc28c02eeea680f59fc9c6ccec3b5b38b4b81a2b99e83a45
+Size: 6005226
+MD5sum: dac4e118ac5a2ab0808f68c4058a35a5
+SHA1: 731edaf25d6c11286f644a7e62946306cf950a24
+SHA256: 4d3378dd18bb72e060ca631c9ae8175c3e1423de965e5087bf743b3ab940ab1a
 Section: admin
 Priority: extra
 Homepage: https://www.lancsnet.com
